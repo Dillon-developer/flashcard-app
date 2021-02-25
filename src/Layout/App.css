@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.btn {
+    border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn:hover {
+    border: solid 2px rgba(255, 255, 255, 0.85);
+    text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron {
+    background-color: rgb(27, 39, 29);
+    border-bottom: solid 2px rgba(30, 230, 155, 0.3);
+}
+
+.card {
+    background-color: rgb(52, 85, 57);
+    border: solid 2px rgba(30, 230, 155, 0.3);
+}
+
+.card:hover {
+    background-color: rgb(46, 73, 50);
+    border: solid 2px rgba(30, 230, 155, 0.3);
+    color: rgb(247, 248, 201);
+    text-shadow: 1px 1px 1px #000;
+}
+
+#flashCard {
+    background-color: rgb(8, 14, 9);
+    color: rgb(254, 255, 213);
+    text-shadow: 1px 1px 1px #000;
+    border: solid 2px rgba(30, 230, 155, 0.75);
+}
+
+#flipBtn {
+    color: rgb(254, 255, 213);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(75, 39, 78);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+#flipBtn:hover {
+    color: rgb(248, 250, 153);
+    text-shadow: 1px 2px 1px #000;
+    background-color: rgb(100, 53, 104);
+    border: solid 2px rgba(255, 255, 255, 0.719);
+    font-weight: bolder;
+}
+
+#nextBtn {
+    color: rgb(254, 255, 213);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(46, 39, 109);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+#nextBtn:hover {
+    color: rgb(248, 250, 153);
+    text-shadow: 1px 2px 1px #000;
+    background-color: rgb(97, 86, 179);
+    border: solid 2px rgba(255, 255, 255, 0.719);
+    font-weight: bolder;
+}
+
+#resetBtn {
+    color: rgb(248, 250, 153);
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgb(46, 39, 109);
+    border: solid 2px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+#resetBtn:hover {
+    color: rgb(247, 248, 201);
+    background-color: rgb(80, 71, 148);
+    border: solid 2px rgba(255, 255, 255, 0.719);
+    font-weight: bolder;
+}
